@@ -10,7 +10,7 @@
 
 ## Installation
 
-```sh
+```bash
 # method = post
 # uri = 'http://localhost:2456/sendMessage'
 # body.token = 'xxxx'
@@ -37,3 +37,10 @@
   pnpm install
   pnpm run serve
   ```
+
+## Deployment
+
+```bash
+npm install --global pm2
+pm2 start ./proxy-telegram-bot/main.js --name proxy-xxxx
+```
