@@ -4,7 +4,7 @@
   "main": "main.js",
   "scripts": {
     "serve": "node main",
-    "api-test": "sh ./api-test.sh"
+    "api-test": "sh ./sendMsgToBot.sh"
   },
   "dependencies": {
     "body-parser": "^1.19.1",
