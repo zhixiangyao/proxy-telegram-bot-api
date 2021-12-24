@@ -1,0 +1,14 @@
+{
+  "name": "proxy-telegram-bot-api",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "serve": "node main",
+    "api-test": "sh ./api-test.sh"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "node-fetch": "2"
+  }
+}
