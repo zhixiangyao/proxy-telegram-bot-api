@@ -1,6 +1,6 @@
 # Proxy Telegram Bot API Service
 
-## Description
+## 描述
 
 如果你有一台国内公网的软路由，想知道软路由的 ip，
 
@@ -10,8 +10,8 @@
 
 ## 前置环境
 
-- Linux -> NodeJS               version >= 12
-- Linux -> NodeJS -> pm2
+- Linux -> [NodeJS](https://nodejs.org/zh-cn/)               version >= 12
+- Linux -> [NodeJS](https://nodejs.org/zh-cn/) -> [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/)
 
 ## 安装
 
