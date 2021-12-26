@@ -72,3 +72,10 @@ server {
 # centos 8
 systemctl status nginx.service
 ```
+
+## Script
+
+```bash
+# crontab  1 分钟执行一次
+* * * * * /www/sendMsgToBot.sh
+```
