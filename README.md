@@ -8,7 +8,12 @@
 
 那么这个项目可以帮助你，代理转发到 telegram bot ～
 
-## Installation
+## 前置环境
+
+- Linux -> NodeJS               version >= 12
+- Linux -> NodeJS -> pm2
+
+## 安装
 
 ```bash
 # method = post
@@ -38,7 +43,7 @@
   pnpm run serve
   ```
 
-## Deployment
+## 部署
 
 ```bash
 npm install --global pm2
@@ -73,7 +78,9 @@ server {
 systemctl status nginx.service
 ```
 
-## Script
+## 执行脚本
+
+[sendMsgToBot.sh](https://github.com/zhixiangyao/proxy-telegram-bot-api/blob/main/sendMsgToBot.sh)
 
 ```bash
 # crontab  1 分钟执行一次
