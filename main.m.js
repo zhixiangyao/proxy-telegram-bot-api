@@ -1,6 +1,6 @@
-const express = require('express')
-const bodyParser = require('body-parser')
-const fetch = require('node-fetch')
+import express from 'express'
+import bodyParser from 'body-parser'
+import fetch from 'node-fetch'
 
 async function postData(url = '', data = {}) {
   const response = await fetch(url, {

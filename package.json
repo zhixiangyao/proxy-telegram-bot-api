@@ -2,13 +2,14 @@
   "name": "proxy-telegram-bot-api",
   "version": "0.1.0",
   "main": "main.js",
+  "type": "module",
   "scripts": {
-    "serve": "node main",
+    "serve": "node main.m.js",
     "api-test": "sh ./sendMsgToBot.sh"
   },
   "dependencies": {
-    "body-parser": "^1.19.1",
-    "express": "^4.17.2",
-    "node-fetch": "2"
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.0"
   }
 }
